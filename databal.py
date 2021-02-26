@@ -26,8 +26,8 @@ print('>executed the loginout() function...')
 
 # Add the username and password
 Event().wait(1) # Wait for 1 second before executing the adding
-driver.find_element_by_xpath('//*[@id="username"]').send_keys("user")
-driver.find_element_by_xpath('//*[@id="password"]').send_keys("@l03e1t3")
+driver.find_element_by_xpath('//*[@id="username"]').send_keys("*username*")
+driver.find_element_by_xpath('//*[@id="password"]').send_keys("*password*")
 print('>user and password entered...')
 
 # Execute the login function
