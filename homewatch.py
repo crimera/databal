@@ -8,7 +8,7 @@ import time
 
 # Set to not show the gui
 opts = webdriver.FirefoxOptions()
-opts.headless = True
+# opts.headless = True
 
 # Initialize the webdriver
 driver = webdriver.Firefox(options=opts, executable_path="/home/stm/.drivers/geckodriver")
@@ -50,7 +50,7 @@ print('>opened the new message dialog...')
 # Enter the 8080 and DATABAL
 time.sleep(3) # Wait for 3 seconds before executing the commands
 driver.find_element_by_xpath('//*[@id="recipients_number"]').send_keys("8080")
-driver.find_element_by_xpath('//*[@id="message_content"]').send_keys("DATABAL")
+driver.find_element_by_xpath('//*[@id="message_content"]').send_keys("HOMEWATCH199")
 print('>writing the message...')
 
 # Click the send button
