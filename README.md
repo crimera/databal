@@ -1,3 +1,3 @@
 # databal
 
-A python cli tool to get the existing data to your globe at home prepaid wifi promo
+A python cli tool to get the remaining data from your globe at home prepaid wifi promo
